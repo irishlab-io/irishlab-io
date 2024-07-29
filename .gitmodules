@@ -1,3 +1,12 @@
 [submodule "irishlab.io/themes/coming-soon"]
 	path = irishlab.io/themes/coming-soon
 	url = https://github.com/mansoorbarri/coming-soon.git
+[submodule "themes/hugo-xterm"]
+	path = themes/hugo-xterm
+	url = https://github.com/manid2/hugo-xterm
+[submodule "irishlab.io/themes/hello-friend-ng"]
+	path = irishlab.io/themes/hello-friend-ng
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "irishlab.io/themes/ananke"]
+	path = irishlab.io/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git

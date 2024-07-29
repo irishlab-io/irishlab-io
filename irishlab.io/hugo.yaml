@@ -2,4 +2,5 @@
 baseURL: https://irishlab.io
 languageCode: en-us
 title: irishlab.io
-theme: coming-soon
+theme: ananke
+paginate: 10
