@@ -4,3 +4,6 @@ languageCode: en-us
 title: irishlab.io
 theme: ananke
 paginate: 10
+
+markup:
+  defaultMarkdownHandler: goldmark
