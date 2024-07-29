@@ -10,3 +10,6 @@
 [submodule "irishlab.io/themes/ananke"]
 	path = irishlab.io/themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "irishlab.io/themes/hugo-blog-awesomen"]
+	path = irishlab.io/themes/hugo-blog-awesomen
+	url = https://github.com/hugo-sid/hugo-blog-awesome.git

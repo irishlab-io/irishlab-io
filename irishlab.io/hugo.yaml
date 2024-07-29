@@ -2,8 +2,16 @@
 baseURL: https://irishlab.io
 languageCode: en-us
 title: irishlab.io
-theme: ananke
+theme: hugo-blog-awesome
 paginate: 10
+
+params:
+  browserconfig:
+    TileColor: "#2d89ef" # default windows 10 blue tile color
+  goToTop: true
+#   socialIcons:
+#     name: github
+#     url: https://github.com/irishlab-io
 
 markup:
   defaultMarkdownHandler: goldmark
