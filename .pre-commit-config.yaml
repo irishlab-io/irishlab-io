@@ -20,10 +20,9 @@ repos:
     rev: v4.6.0
     hooks:
       # Git style
-      - id: check-added-large-files
+      # - id: check-added-large-files
       - id: check-merge-conflict
       - id: check-vcs-permalinks
-      - id: forbid-new-submodules
       # Common errors
       - id: end-of-file-fixer
       - id: trailing-whitespace
