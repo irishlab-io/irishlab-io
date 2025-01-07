@@ -1,0 +1,27 @@
+---
+name: Continous Integration - Main
+
+on: # yamllint disable-line rule:truthy
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+
+  secret:
+    name: Call Secret Scanning
+    uses: irishlab-io/admin/.github/workflows/reusable-secret.yml@main
+    secrets: inherit
+
+  pre-commit:
+    needs:
+      - secret
+    name: Call Pre-Commit for private repo
+    uses: irishlab-io/admin/.github/workflows/reusable-pre-commit.yml@main
