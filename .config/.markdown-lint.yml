@@ -1,25 +1,53 @@
 ---
+# Default state for all rules
 default: true
 
-# MD013/line-length - Line length
-MD013:
-  # Number of characters
-  line_length: 9999
-  # Number of characters for headings
-  heading_line_length: 80
-  # Number of characters for code blocks
-  code_block_line_length: 80
-  # Include code blocks
-  code_blocks: true
-  # Include tables
-  tables: true
-  # Include headings
-  headings: true
-  # Strict length checking
-  strict: false
-  # Stern length checking
-  stern: false
+# MD004/ul-style
+MD004:
+  style: dash
 
-# MD025/Multiple top-level headings in the same document
+# MD007/ul-indent
+MD007:
+  indent: 2
+  start_indented: false
+
+# MD013/line-length
+MD013:
+  code_block_line_length: 80
+  code_blocks: false
+  heading_line_length: 40
+  headings: true
+  line_length: 9999
+  stern: false
+  strict: false
+  tables: false
+
+# MD025/front-matter
 MD025:
   front_matter_title: ""
+  level: 1
+
+# MD033/inline-html
+MD033:
+  allowed_elements: [br, img]
+
+# MD041/first-line-heading/first-line-h1
+MD041:
+  front_matter_title: ""
+  level: 1
+
+# MD044/proper-names
+MD044:
+  code_blocks: false
+  names:
+    - DevOps
+    - DevSecOps
+    - Git
+
+# MD046/code-block-style
+MD046:
+  style: fenced
+
+# MD048/code-fence-style
+MD048:
+  style: backtick
