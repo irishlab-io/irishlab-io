@@ -1,17 +1,29 @@
 ---
-baseURL: https://irishlab.io
-languageCode: en-us
-title: irishlab.io
-theme: hugo-blog-awesome
-paginate: 10
+baseURL: "https://irishlab.io"
+
+languageCode: "en-us"
+defaultContentLanguage: "en"
+title: "irishlab.io"
+theme: "hugo-theme-techdoc"
+
+metaDataFormat: "yaml"
 
 params:
-  browserconfig:
-    TileColor: "#2d89ef" # default windows 10 blue tile color
-  goToTop: true
-#   socialIcons:
-#     name: github
-#     url: https://github.com/irishlab-io
+  title: "irishlab.io"
+  description: "This is my homelab, there are many like this but this one is mine."
+  github_repository: "https://github.com/irishlab-io/irishlab"
+
+  github_doc_repository: "https://github.com/irishlab-io/irishlab-io"
+  github_doc_repository_branch: "main"
+  github_doc_repository_path: "irishlab.io/content/"
+
+  # Analytic section
+  google_analytics_id: "" # Your Google Analytics tracking id
+  tag_manager_container_id: "" # Your Google Tag Manager container id
+  google_site_verification: "" # Your Google Site Verification for Search Console
+
+  # Documentation Menu section
+  menu_style: "slide-menu"
 
 markup:
   defaultMarkdownHandler: goldmark

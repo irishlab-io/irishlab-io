@@ -1,9 +1,0 @@
----
-title: About
-description: 'Hugo, the world''s fastest framework for building websites'
-author: Hugo Authors
----
-
-# Hello there :D
-
-Hi my name is ...
