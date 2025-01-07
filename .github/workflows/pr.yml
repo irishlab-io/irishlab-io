@@ -22,8 +22,8 @@ jobs:
     secrets: inherit
 
   pre-commit:
-    name: Call Pre-Commit for private repo
-    uses: irishlab-io/admin/.github/workflows/reusable-pre-commit.yml@main
-
     needs:
       - secret
+
+    name: Call Pre-Commit for private repo
+    uses: irishlab-io/admin/.github/workflows/reusable-pre-commit.yml@main
