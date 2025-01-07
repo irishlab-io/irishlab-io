@@ -18,9 +18,9 @@ params:
   github_doc_repository_path: "irishlab.io/content/"
 
   # Analytic section
-  google_analytics_id: "" # Your Google Analytics tracking id
-  tag_manager_container_id: "" # Your Google Tag Manager container id
-  google_site_verification: "" # Your Google Site Verification for Search Console
+  # google_analytics_id: "" # Your Google Analytics tracking id
+  # tag_manager_container_id: "" # Your Google Tag Manager container id
+  # google_site_verification: "" # Your Google Site Verification for Search Console
 
   # Documentation Menu section
   menu_style: "slide-menu"
